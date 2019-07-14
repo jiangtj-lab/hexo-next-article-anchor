@@ -26,5 +26,5 @@ hexo.extend.filter.register('after_post_render', function (data) {
 });
 
 hexo.extend.filter.register('theme_inject', function(injects) {
-  injects.variable.push(path.join(__dirname, 'article-anchor.styl'));
+  injects.style.push(path.join(__dirname, 'article-anchor.styl'));
 });
