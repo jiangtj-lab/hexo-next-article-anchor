@@ -1,6 +1,6 @@
 {
   "name": "@jiangtj/hexo-next-article-anchor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/jiangtj-lab/hexo-next-article-anchor.git",
   "author": "Mr.J",
