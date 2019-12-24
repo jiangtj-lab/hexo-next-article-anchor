@@ -1,9 +1,12 @@
 # hexo-next-article-anchor
 
+[![](https://img.shields.io/npm/v/@jiangtj/hexo-next-article-anchor.svg?style=popout-square)](https://www.npmjs.com/package/@jiangtj/hexo-next-article-anchor)
+![npm](https://img.shields.io/npm/l/@jiangtj/hexo-next-article-anchor.svg?style=popout-square)
+
 ```bash
 yarn add @jiangtj/hexo-next-article-anchor
 ```
 
-How to create plugin: http://www.dnocm.com/articles/beechnut/hexo-next-injects/
+Note: have to install hexo-renderer-marked.
 
-unmaintained, please go to https://github.com/1v9/hexo-theme-next-anchor.
+If you don't use hexo-renderer-marked, please install https://github.com/theme-next/hexo-theme-next-anchor for common handling.
