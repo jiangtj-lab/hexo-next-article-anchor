@@ -2,8 +2,9 @@
 
 'use strict';
 
-const path = require("path");
+const { join } = require("path");
 const cheerio = require("cheerio");
+const injector = require("hexo-extend-injector2")(hexo);
 
 hexo.extend.filter.register('marked:renderer', function(renderer) {
   let originalRender = new renderer.constructor();
@@ -19,6 +20,4 @@ hexo.extend.filter.register('marked:renderer', function(renderer) {
   };
 });
 
-hexo.extend.filter.register('theme_inject', function(injects) {
-  injects.style.push(path.join(__dirname, 'article-anchor.styl'));
-});
+injector.register('style', join(__dirname, 'article-anchor.styl'));
