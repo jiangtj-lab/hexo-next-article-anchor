@@ -7,6 +7,10 @@
 yarn add @jiangtj/hexo-next-article-anchor
 ```
 
-Note: have to install hexo-renderer-marked.
+自用，不提供任何技术支持
 
-If you don't use hexo-renderer-marked, please install https://github.com/theme-next/hexo-theme-next-anchor for common handling.
+Self-use, do not provide any technical support
+
+如果你需要类似的功能插件，可以安装https://github.com/theme-next/hexo-theme-next-anchor
+
+If you need a similar function plugin, please install https://github.com/theme-next/hexo-theme-next-anchor.
