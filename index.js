@@ -17,7 +17,7 @@ hexo.extend.filter.register('marked:renderer', function(renderer) {
     el
       .addClass('article-heading')
       .append('<a class="article-anchor" href="#' + id + '" aria-hidden="true"></a>');
-    return $.html();
+    return $('body').html();
   };
 });
 
