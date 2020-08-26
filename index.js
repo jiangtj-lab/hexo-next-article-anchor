@@ -21,4 +21,4 @@ hexo.extend.filter.register('marked:renderer', function(renderer) {
   };
 });
 
-injector.register('style', join(__dirname, 'article-anchor.styl'));
+injector.register('style', {path: join(__dirname, 'article-anchor.css')});

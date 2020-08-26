@@ -7,10 +7,4 @@
 yarn add @jiangtj/hexo-next-article-anchor
 ```
 
-自用，不提供任何技术支持
-
-Self-use, do not provide any technical support
-
-如果你需要类似的功能插件，可以安装https://github.com/theme-next/hexo-theme-next-anchor
-
-If you need a similar function plugin, please install https://github.com/theme-next/hexo-theme-next-anchor.
+![](https://jiangtj-lab.github.io/pic-repo/img-apricot/20200826104235.png)
